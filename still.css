@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-image: url(ocean-3605547_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* header css*/
+
+.header {
+    background-color: rgba(41, 131, 131, 0.575);
+    display: flex;
+    height: 110px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+}
+.header .title h1 {
+
+    color:aquamarine;
+
+}
+.header .title h1 span {
+    color: rgb(201, 28, 28);
+
+}
+.header .nav ul li {
+    list-style-type: none;
+
+}
+.header .nav ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    color:rgba(231, 7, 7, 0.897);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header .nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+
+}
+
+/* header bitiş */
+
+/* ana içerik başlangıç css*/
+
+.main {
+    height: 50vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.main .info {
+    height: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+.main .info p {
+    color: gray;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.main .info h1 {
+    color: rgba(209, 32, 32, 0.76);
+}
+.main .info p b {
+    color:rgba(196, 25, 25, 0.904);
+    text-transform: capitalize;
+
+}
+.main .info button {
+    border: none;
+    color: white;
+    background-color: rgba(170, 31, 31, 0.829);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main .info button:hover {
+    
+    background-color: rgba(58, 121, 121, 0.534);
+    font-size: 15px;
+}
+
+/* ana içerik bitiş css*/
+
+
+
+/* table başlangıç css*/
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+
+
+}
+.table-container table {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    border-collapse: collapse;
+    
+
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid grey; 
+}
+th {
+    background-color: rgba(49, 141, 110, 0.788);
+}
+
+
+
+/* table alanı bitiş*/
+
+
+
+/* form alanı başlangıç css*/
+
+.form-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: rgba(49, 141, 110, 0.788);
+
+
+}
+label {
+    font-weight: bold;
+}
+
+#ad, #email, textarea {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    background-color: wheat;
+
+
+}
+.btn {
+    background-color: rgb(15, 15, 54);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: rgb(39, 39, 131);
+}
+
+
+
+
+/* forma alanı bitiş*/
+
+
+
+/* footer alanı başlangıç css */
+
+.footer {
+    background-color:rgba(97, 30, 30, 0.671);
+    color: white;
+    height: 80px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@madia (max-width: 800px) {
+    .header .nav{
+        display: none;
+    }
+}
+
+
+
+
